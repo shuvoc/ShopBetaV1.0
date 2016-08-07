@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 
 public class Frag2 extends Fragment
@@ -21,7 +22,7 @@ public class Frag2 extends Fragment
         // Defines the xml file for the fragment
         View view = inflater.inflate(R.layout.frag2, container, false);
         /////////////////////////////////////////////////////////////////////////////////////
-
+        Toast.makeText(getContext(),"abcd",Toast.LENGTH_LONG).show();
         //////////////////////////////////////////////////////////////////////////////////////
         return view;
     }
