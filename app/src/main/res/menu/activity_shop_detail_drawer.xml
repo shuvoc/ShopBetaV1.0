@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hrm"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="HRM" />
+        <item
+            android:id="@+id/nav_vccentre"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Virtual Call Centre" />
+        <item
+            android:id="@+id/nav_vsmscentre"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Vertual SMS Centre" />
+        <item
+            android:id="@+id/nav_orderpipeline"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Order Pipeline" />
+        <item
+            android:id="@+id/nav_deliverypipeline"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Delivery Pipeline" />
+        <item
+            android:id="@+id/nav_productinventory"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Product Inventory" />
+        <item
+            android:id="@+id/nav_transactions"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Transactions" />
+        <item
+            android:id="@+id/nav_customerdatabase"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Customer Database" />
+        <item
+            android:id="@+id/nav_devicemanager"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Device Manager" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

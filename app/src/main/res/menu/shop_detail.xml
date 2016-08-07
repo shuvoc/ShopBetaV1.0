@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" /-->
+
+    <item android:id="@+id/daily"
+        android:icon="@drawable/call_history"
+        android:title="Daily"
+        app:showAsAction="never"/>
+    <item android:id="@+id/monthly"
+        android:icon="@drawable/call_history"
+        android:title="Monthly"
+        app:showAsAction="never"/>
+    <item android:id="@+id/yearly"
+        android:icon="@drawable/call_history"
+        android:title="Yearly"
+        app:showAsAction="never"/>
+    <item android:id="@+id/range"
+        android:icon="@drawable/call_history"
+        android:title="Given Range"
+        app:showAsAction="never"/>
+</menu>
